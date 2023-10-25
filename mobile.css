@@ -1,0 +1,189 @@
+@media screen and (max-width: 767px) {
+    body {
+        overflow-x: hidden;
+    }
+    html {
+        overflow-x: hidden;
+    }
+    .bg-nav {
+        width: 100%;
+        z-index: 5;
+    }
+    nav {
+        width: 100%;
+    }
+    .nav-profile h1 {
+        font-size: 22px;
+    }
+    .nav-profile img {
+        width: 60px;
+    }
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        cursor: pointer;
+        visibility: visible;
+    }
+    .hamburger.active .burger1 {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+    .hamburger.active .burger2 {
+        transform: translateX(50px);
+        opacity: 0;
+    }
+    .hamburger.active .burger3 {
+        transform: rotate(-45deg) translate(5px, -5px);
+    }
+    .burger {
+        transition: .3s ease;
+        width: 30px;
+        height: 4px;
+        border-radius: 10px;
+        background-color: #ffffff;
+    }
+    .navMenu {
+        padding: 20px 0;
+        transform: translateX(0);
+        opacity: 1;
+        visibility: hidden;
+        text-align: center;
+        background-color: rgba(209, 209, 209, 0.596);
+        position: absolute;
+        flex-direction: column;
+        transform: translateY(70%) translateX(80px);
+        padding: 30px;
+        border-radius: 20px;
+    }
+    .navMenu.active {
+        padding: 50px;
+        transform: translateX(0);
+        opacity: 1;
+        visibility: visible;
+        text-align: center;
+        background-color: rgba(209, 209, 209, 0.596);
+        position: absolute;
+        flex-direction: column;
+        transform: translateY(70%) translateX(80px);
+        border-radius: 20px;
+    }
+
+    .bg-hero {
+        background-image: url(images/wallpaper.png);
+        background-position: center;
+    }
+    .desc-herosec h1 {
+        font-size: 30px;
+    }
+    .desc-herosec p {
+        font-size: 15px;
+        width: 350px;
+    }
+    .social-link a svg {
+        width: 20px;
+        border: 1px solid white;
+        padding: 2px;
+    }
+
+    .header-hero h2 {
+        font-size: 26px;
+    }
+    .txt-bg {
+        font-size: 70px;
+    }
+    .content-herosection {
+        flex-direction: column;
+    }
+    .content-herosection img {
+        width: 330px;
+    }
+    .desc-hero {
+
+    }
+    .desc-hero h1 {
+        font-size: 20px;
+        line-height: 45px;
+        width: 330px;
+    }
+    .desc-hero h1 span {
+        font-size: 30px;
+
+    }
+    .desc-hero p {
+        width: 350px;
+        font-size: 14px;
+        padding-bottom: 70px;
+    }
+
+
+    .content-myskill {
+        flex-direction: column;
+    }
+    .desc-myskill {
+        width: 350px;
+    }
+    .desc-myskill h3 {
+        font-size: 24px;
+    }
+    .desc-myskill h4 {
+        font-size: 12.5px;
+    }
+    .html-text {
+        width: 350px;
+    }
+    .line-myskill {
+        width: 350px;
+    }
+
+    .iklan h1 {
+        font-size: 28px;
+    }
+    .iklan a {
+        font-size: 20px;
+    }
+
+    .content-portfolio {
+        grid-template-columns: auto;
+    }
+    .headCard img {
+        width: 280px;
+    }
+    .card-portfolio p {
+        width: 280px;
+        font-size: 12px;
+    }
+    .card-portfolio h1 {
+        font-size: 24px;
+    }
+    .card-portfolio h3 {
+        font-size: 16px;
+    }
+    .link-card a svg {
+        width: 21px;
+        border: 1px solid white;
+    }
+
+    .content-contact {
+        margin-top: -40px;
+        flex-direction: column;
+    }
+    .form-contact h1 {
+        font-size: 28px;
+    }
+    .form-contact input {
+        font-size: 16px;
+    }
+    .form-contact textarea {
+        font-size: 12px;
+    }
+
+    footer h1 {
+        font-size: 22px;
+    }
+    footer h3 {
+        font-size: 18px;
+    }
+    footer a {
+        font-size: 14px;
+    }
+}
